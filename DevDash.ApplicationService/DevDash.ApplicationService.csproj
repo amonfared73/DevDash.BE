@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Queries\Dash\" />
+    <Folder Include="Queries\Dev\" />
+    <Folder Include="Services\Dev\" />
+    <Folder Include="Services\Dash\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevDash.Domain\DevDash.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
