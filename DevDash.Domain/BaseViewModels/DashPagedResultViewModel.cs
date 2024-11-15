@@ -4,6 +4,6 @@ namespace DevDash.Domain.BaseViewModels
 {
     public class DashPagedResultViewModel<T> : DashBaseResultViewModel where T : DashBaseViewModel
     {
-        public IEnumerable<T> Result { get; set; }
+        public IQueryable<T> Result { get; set; }
     }
 }
